@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #d32f2f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+nav ul.menu {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+}
+
+nav ul.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.slider img {
+  max-height: 220px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.intro-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.intro-img {
+  max-width: 300px;
+  border-radius: 6px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 20px;
+  gap: 20px;
+}
+
+.card-section {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-section img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-section h2 {
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons img {
+  height: 30px;
+  margin: 0 8px;
+}
