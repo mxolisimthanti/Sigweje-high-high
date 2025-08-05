@@ -68,8 +68,8 @@ nav ul.menu li a {
 
 .intro-text {
   flex: 1;
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 100px;
+  max-width: 200px;
   padding: 20px;
 }
 
@@ -87,14 +87,14 @@ nav ul.menu li a {
 
 .intro-image {
   flex: 1;
-  min-width: 300px;
-  max-width: 600px;
-  padding: 20px;
-  text-align: center;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 10px;
+  text-align: left;
 }
 
 .intro-image img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   border-radius: 8px;
 }
